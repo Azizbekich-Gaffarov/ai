@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    padding: 25px 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    border-bottom: 0.3px solid #46A358;
+    margin-bottom: 12px;
+}
+.header__logo {
+}
+.header__pic {
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+.nav__link {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+.nav__link:hover {
+    text-decoration: none;
+    color: #46A358;
+    border-bottom: 3px solid #46A358;
+    padding-bottom: 26px;
+}
+.nav2 {
+}
+.nav2__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav2__item:not(:last-child) {
+    margin-right: 30px;
+}
+.nav2__btn {
+    background: none;
+    border: none;
+}
+.nav2--btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #46A358;
+    color: #fff;
+}
+.search {
+}
+.savat {
+}
+.log {
+    margin-right: 10px;
+}
+.main {
+}
+.section {
+    
+}
+.section__hero {
+    height: 450px;
+    background: linear-gradient(#F5F5F5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__wrap-one {
+    padding: 68px 0 85px 40px;
+}
+.section__wrap__paragraf {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.section__wrap__heading {
+    width: 530px;
+    height: 140px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.section__wrap__heading--green {
+    color: #46A358;
+}
+.section__wrap__text {
+    width: 557px;
+    height: 45px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.section__wrap__btn {
+    padding: 10px 26px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #46A358;
+    border-radius: 6px;
+}
+.section__wrap-two {
+    
+}
+.box1 {
+}
+.section__hero-img {
+    position: relative;
+    top: 100px;
+}
+.box2 {
+}
+.section__hero-img2 {
+}

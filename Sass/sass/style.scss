@@ -1,0 +1,65 @@
+@import 'varibles';
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: $primary-color;
+}
+
+.conatainer {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    padding: 30px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #545452;
+    .header-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-logo {
+        width: 60px;
+        height: 60px;
+        background-color: aqua;
+        transform: rotate(45deg);
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+        background-color: red;
+    
+    }
+    .logo:hover {
+        width: 60px;
+        height: 60px;
+        transition: all .5s ease-in-out;
+        background-color: rgb(55, 28, 28);
+        transform: rotate(45deg);
+    }
+}
+
+
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    .header-item {
+        margin-right: 30px;
+        .header-link {
+            text-decoration: none;
+            color: aliceblue;
+        }
+    }
+}
